@@ -1,7 +1,7 @@
 body {
   background-color: #cccc99;
-
 }
+
 main {
   display: flex;
   align-items: center;
@@ -11,19 +11,23 @@ main {
   margin: 0 auto;
   box-sizing: border-box;
 }
+
 a {
   height: auto;
   background-color: white;
 }
+/*I had to get a little creative with borders here.  The original site had the images
+nested in a table.  Since I did not use a table I had to find another way to blend
+them with the image used for the logo/nav bar.*/
 .menupics {
   border-left: 15px solid white;
   border-right: 9px solid white;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   margin-right: 7px;
-
 }
-p {
+
+main p {
   width: 845px;
   background-color: white;
   font-size: 15px;
@@ -34,4 +38,36 @@ p {
   line-height: 1.5em;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+nav a {
+  background-color: #cccc99;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 1em;
+}
+
+strong {
+  font-weight: bold;
 }
