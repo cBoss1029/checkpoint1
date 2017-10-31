@@ -1,0 +1,37 @@
+body {
+  background-color: #cccc99;
+
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+a {
+  height: auto;
+  background-color: white;
+}
+.menupics {
+  border-left: 15px solid white;
+  border-right: 9px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-right: 7px;
+
+}
+p {
+  width: 845px;
+  background-color: white;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: verdana serif;
+  text-align: left;
+  line-height: 1.5em;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
